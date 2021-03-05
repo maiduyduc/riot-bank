@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat",sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  button{
+    border: none;
+  }
+  body{
+    /* background-color: #6c5ce7; */
+    min-height: 100vh;
+    background-image: linear-gradient(120deg,#3498db,#8e44ad);
+  }
+  .wrap{
+    /* margin-top: 0.5%; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    position: absolute;
+    /* min-height: 100vh; */
+    background-image: linear-gradient(120deg,#8d44ad9c,#3498db6e);
+    width: 698px;
+    height: 550px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+  }
+  
+  .btn-flex{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background:#22a6b3;
+    padding: 1%;
+    margin-top: 3%;
+    margin-left: 3.2%;
+    color: white;
+    position: absolute;
+    flex-direction: row;
+    display: flex;
+    width: 94%;
+  }
+  .item{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 4px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    transition: 0.4s;
+  }
+  .item:hover{
+    transform: scale(0.95);
+  }
+  .item i{
+    font-size: 36px;
+    line-height: 90px;
+    opacity: 0.8;
+    color: white;
+  }
+  .item span{
+    opacity: 0.8;
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+    font-size: 13px;
+    color: white;
+  }
+  
+  .i1{
+    background: #4834d4;
+    width: 312px;
+    height: 156px;
+  }
+  
+  .i2{
+    background: #e74c3c;
+    width: 312px;
+    height: 156px;
+  }
+  
+  .i3{
+    background:#27ae60;
+    width: 312px;
+    height: 156px;
+  }
+  
+  .i4{
+    background: #f0932b;
+    width: 312px;
+    height: 156px;
+  }
+  
+  .i5{
+    background:#6F1E51;
+    width: 312px;
+    height: 156px;
+  }
+  .i6{
+    background: #2c3e50;
+    width: 312px;
+    height: 156px;
+  }
+  
+  /* onLogin */
+
