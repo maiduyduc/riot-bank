@@ -86,8 +86,8 @@
                     $mail->isSMTP(); // using SMTP protocol                                     
                     $mail->Host = 'smtp.gmail.com;smtp1.gmail.com;smtp2.gmail.com'; // SMTP host as gmail 
                     $mail->SMTPAuth = true;  // enable smtp authentication                             
-                    $mail->Username = 'matrixpro.felix@gmail.com';  // sender gmail host              
-                    $mail->Password = 'MaiDuyDuc2008!!??'; // sender gmail host password                          
+                    $mail->Username = '';  // sender gmail host              
+                    $mail->Password = ''; // sender gmail host password                          
                     $mail->SMTPSecure = 'tls';  // for encrypted connection                           
                     $mail->Port = 587;   // port for SMTP   
                     $mail->CharSet = 'UTF-8';  
